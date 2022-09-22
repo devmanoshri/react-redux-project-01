@@ -6,7 +6,7 @@ function IceCreamContainer(props) {
   return (
     <div>
       <h2>Number of Ice Creams - {props.numOfIceCreams}</h2>
-      <button onClick={props.buyIceCream}>Buy IceCreams</button>
+      <button onClick={props.buyIceCream}>Buy IceCreams here</button>
     </div>
   );
 }
