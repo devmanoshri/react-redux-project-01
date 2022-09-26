@@ -4,6 +4,7 @@ import {
   FETCH_USERS_FAILURE,
 } from "./userTypes";
 import axios from "axios";
+
 export const fetchUserRequest = () => {
   return {
     type: FETCH_USERS_REQUEST,
